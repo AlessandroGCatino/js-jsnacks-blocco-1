@@ -11,7 +11,7 @@ startButton.addEventListener("click", function(){
 
         for (let i=1; i<=numeroUtente; i++){
             cubedNum= i*i*i
-            document.querySelector("p").innerHTML += `Il cubo del ${i}° numero è: ${cubedNum} <br>`
+            document.querySelector("p").innerHTML += `Il cubo del numero ${i} è: ${cubedNum} <br>`
         }
     }
 }
