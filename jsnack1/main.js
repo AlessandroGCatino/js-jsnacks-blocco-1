@@ -9,6 +9,7 @@ startButton.addEventListener("click", function(){
         numeroUtente = prompt(`Inserisci il numero ${i+1} di 10`, "1")
         numeroUtente = parseInt(numeroUtente)
         sommaNum = sommaNum + numeroUtente
+        console.log(sommaNum, "+" + numeroUtente)
     }
     document.querySelector("p").innerHTML = sommaNum
     
