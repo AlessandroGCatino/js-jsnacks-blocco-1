@@ -14,7 +14,7 @@ startButton.addEventListener("click", function(){
         console.log(arrayNumeri)
         
         for (let i=0; i<arrayNumeri.length; i++){
-            if(i%2 == 0){
+            if(!(i%2 == 0)){
                 sommaNum = sommaNum+arrayNumeri[i]
                 console.log(sommaNum)
             }
